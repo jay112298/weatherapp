@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    {{>headtags}}
+</head>
+<body>
+    {{>navbar}}
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                  <!-- right header -->
+                    <div class="col-md-12 col-12 main_header_right align-items-center">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <figure class="errimg">
+                                <img src="images/404.jpg" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-12 main_header_left align-items-center">
+                            {{!-- <p>Welcome to the weather app made by Jay</p> --}}
+                            <h1>Oops looks like you are <span class="text_clr">LOST</span></h1>
+                            <a href="/"><button>Go Home</button></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>
